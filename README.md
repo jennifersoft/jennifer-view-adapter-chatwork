@@ -10,9 +10,19 @@ Please use this branch on JENNIFER Server 5.2.3 or more.
 The first step is to register the adapter:
 
 1. In JENNIFER Client, open the management area and Navigate to Extension and Notice > Adapter and Plugin
-Make sure the adapter tab is selected then click the [+Add] button
-2. Select [Event] from the classifications dropdown.
-3. Enter `chatwork` as the ID.
-4. Enter the path to the adapter JAR file jennifer-view-adapter-chatwork.jar or upload the JAR file from you local machine.
-5. Enter the adapter class name `adapter.jennifer.chatwork.ChatworkAdapter` and save the settings.
+1. Make sure the adapter tab is selected then click the [+Add] button.
+1. Select [Event] from the classifications dropdown.
+1. Enter `chatwork` as ID.
+1. Enter the path to the adapter JAR file jennifer-view-adapter-chatwork.jar or upload the JAR file from you local machine.
+1. Enter the adapter class name `adapter.jennifer.chatwork.ChatworkAdapter` and save the settings.
 
+The second step is to register parameters for sending messages.
+1. Open the management area and Navigate to Extension and Notice > Adapter and Plugin.
+1. Make sure the adapter tab is selected then click the `chatwork adapter` that was registerd privious step.
+1. Click [Option] button.
+1. Click [+Add] button.
+1. Enter `token` as Key and token vale for using chatwork API as Value. Then save the setting.
+1. Click [+Add] button.
+1. Enter `room_name` as Key and the room name to send message as Value. Then save the setting.
+
+All step is cleared, restart JENNIFER View Server then you can check the JENNIFER's event messages on Chatwork.

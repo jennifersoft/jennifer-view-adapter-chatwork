@@ -25,4 +25,15 @@ The second step is to register parameters for sending messages.
 1. Click [+Add] button.
 1. Enter `room_name` as Key and the room name to send message as Value. Then save the setting.
 
+
+### Options
+
+The following table shows the required options for this adapter
+
+| Key |	Required |	Description	Example |
+| --- | --- | --- |
+| token |	YES |	Set Chatwork API token |
+| room_name |	YES | Set target destination for message. | 
+
+
 All step is cleared, restart JENNIFER View Server then you can check the JENNIFER's event messages on Chatwork.

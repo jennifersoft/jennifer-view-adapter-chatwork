@@ -56,6 +56,7 @@ public class ChatworkAdapter implements JenniferAdapter
 	{
 		StringBuilder messageBody = new StringBuilder();
 		messageBody.append("[info]");
+            messageBody.append("[" + eventModel.getErrorLevel() + "]");
 	    messageBody.append("The following event " + eventModel.getErrorType() + " was caught by JENNIFER\n");
 	    messageBody.append("[hr]");
 	    messageBody.append("Affected Domain [ID:NAME]: " + eventModel.getDomainId() + ":" + eventModel.getDomainName() + "\n");

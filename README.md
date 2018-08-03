@@ -3,7 +3,7 @@ Simple adapter to push EVENT notifications to Chatwork room.
 
 # Important Notice
 
-Please use this branch on JENNIFER Server 5.2.3.
+Please use this branch on JENNIFER Server 5.2.3 and more.
 
 # Getting started
 
